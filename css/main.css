@@ -14,3 +14,29 @@ header, footer{
 #my-image{
     box-shadow: 0 0 2px 1px black;
 }
+ul{
+    list-style-type: square;
+}
+section li:nth-child(odd){
+    background-color: rgb(223, 208, 244);
+}
+
+/*navigation*/
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav li a {
+    display: block;
+    border: 1px solid black;
+    background: paleturquoise;
+  }
+nav a:link, a:visited{
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: violet;
+}
+
+
