@@ -12,13 +12,13 @@ header, footer{
     color: #4a314d
 }
 #my-image{
-    box-shadow: 0 0 2px 1px black;
+    box-shadow: 0 0 2px 1px #000000;
 }
 ul{
     list-style-type: square;
 }
 section li:nth-child(odd){
-    background-color: rgb(223, 208, 244);
+    background-color: #DFD0F4;
 }
 
 /*navigation*/
@@ -29,14 +29,14 @@ nav ul{
 }
 nav li a {
     display: block;
-    border: 1px solid black;
-    background: paleturquoise;
+    border: 1px solid #000000;
+    background: #AFEEEE;
   }
 nav a:link, a:visited{
     text-decoration: none;
 }
 nav a:hover{
-    background-color: violet;
+    background-color: #DA70D6;
 }
 
 
